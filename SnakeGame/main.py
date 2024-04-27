@@ -99,7 +99,7 @@ class SnakeGameClass:
             return imgMain
 
 
-game = SnakeGameClass('C:\\Users\\imsmo\\PycharmProjects\\SnakeGameCV\\img\\star.png')
+game = SnakeGameClass('C:\\Users\\imsmo\\PycharmProjects\\SnakeGameCV\\res\\star.png')
 
 while True:
     success, img = cap.read()

@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a014f19-32eb-4c89-ab52-e232307dce53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CVProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Donut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/star.png" afterDir="false" />
+    <list default="true" id="3a014f19-32eb-4c89-ab52-e232307dce53" name="Changes" comment="Snake Project Cv code">
+      <change afterPath="$PROJECT_DIR$/Pong/pong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/bat1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/bat2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/gameOver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CVProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CVProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CVProjects/gpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/gpt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CVProjects/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Donut.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Donut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mina.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/mina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/star.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ims2002"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ims2002/CVProjects.git",
+    "accountId": "12f37b03-d2d5-42d0-a234-f42c4d116a74"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -41,28 +58,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.gpt.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/imsmo/PycharmProjects/SnakeGameCV/img&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.gpt.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.pong.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/imsmo/PycharmProjects/CVProjects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\imsmo\PycharmProjects\SnakeGameCV\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\imsmo\PycharmProjects\CVProjects\res" />
       <recent name="C:\Users\imsmo\PycharmProjects\SnakeGameCV\SnakeGame" />
       <recent name="C:\Users\imsmo\PycharmProjects\SnakeGameCV\img" />
     </key>
@@ -86,14 +105,38 @@
       <workItem from="1714116815117" duration="2512000" />
       <workItem from="1714144048385" duration="793000" />
       <workItem from="1714144856314" duration="6704000" />
+      <workItem from="1714153470787" duration="1908000" />
     </task>
+    <task id="LOCAL-00001" summary="Snake Project Cv">
+      <option name="closed" value="true" />
+      <created>1714153573152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714153573152</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Snake Project Cv code">
+      <option name="closed" value="true" />
+      <created>1714153619443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714153619443</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Snake Project Cv" />
+    <MESSAGE value="Snake Project Cv code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Snake Project Cv code" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SnakeGameCV$gpt.coverage" NAME="gpt Coverage Results" MODIFIED="1714152956278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CVProjects$pong.coverage" NAME="pong Coverage Results" MODIFIED="1714243887389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pong" />
     <SUITE FILE_PATH="coverage/SnakeGameCV$main.coverage" NAME="main Coverage Results" MODIFIED="1714152682203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
