@@ -79,7 +79,7 @@ class SnakeGameClass:
                                scale=7, thickness=5, offset=20)
 
             # Did the snake die?
-            pts = np.array(self.points[:-4], np.int32)
+            pts = np.array(self.points[:-10], np.int32)
             pts = pts.reshape((-1, 1, 2))
             cv2.polylines(imgMain, [pts], False, (0, 200, 0), 3)
             minDist = cv2.pointPolygonTest(pts, (cx, cy), True, )  # Pass all our points and the head
@@ -97,7 +97,7 @@ class SnakeGameClass:
         return imgMain
 
 
-game = SnakeGameClass('C:\\Users\\imsmo\\PycharmProjects\\SnakeGameCV\\res\\star.png')
+game = SnakeGameClass('C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\star.png')
 
 while True:
     success, img = cap.read()

@@ -8,9 +8,9 @@ cap.set(3, 1280)
 cap.set(4, 720)
 
 # Importing all images
-imgBackground = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\Background.png")
-imgGameOver = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\gameOver.png")
-imgBall = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\Ball.png", cv2.IMREAD_UNCHANGED)
+imgBackground = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\Background_blue.png")
+imgGameOver = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\gameOver_blue.png")
+imgBall = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\ball_net.png", cv2.IMREAD_UNCHANGED)
 imgBat1 = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\bat1.png", cv2.IMREAD_UNCHANGED)
 imgBat2 = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\bat2.png", cv2.IMREAD_UNCHANGED)
 
@@ -95,7 +95,7 @@ while True:
         speedY = 15
         gameOver = False
         score = [0, 0]
-        imgGameOver = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\gameOver.png")
+        imgGameOver = cv2.imread("C:\\Users\\imsmo\\PycharmProjects\\CVProjects\\res\\gameOver_blue.png")
 
     if key == ord('q'):
         break
