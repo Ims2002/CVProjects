@@ -82,7 +82,7 @@ while True:
         cv2.putText(img, str(score[0]), (300, 650), cv2.FONT_HERSHEY_COMPLEX, 3, (255, 255, 255), 5)
         cv2.putText(img, str(score[1]), (900, 650), cv2.FONT_HERSHEY_COMPLEX, 3, (255, 255, 255), 5)
 
-    img[580:700, 20:233] = cv2.resize(imgRaw, (213, 120))
+    img[580:700, 20:233] = imgRaw[:120, :213]
 
     cv2.imshow("Pong", img)
     key = cv2.waitKey(1)
