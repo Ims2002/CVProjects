@@ -1,6 +1,9 @@
-# CVProjects: Juegos con Visión por Computadora
+# CVProjects: Juegos con Visión por Ordenador con la librería OpenCV
 
 ¡Bienvenido a CVProjects! Este repositorio contiene una colección de juegos y otros proyectos interesantes desarrollados con técnicas de Visión por Computadora (Computer Vision) usando Python [2].
+
+![SnakeGame](./CVS.png)
+![PongGame](./CVP.png)
 
 ## Descripción del Proyecto
 
